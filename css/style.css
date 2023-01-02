@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+a{
+    color: rgba(0, 0, 0, 0.767);
+}
+.back-video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    
+}
+.back-video video{
+   width: 100%;
+   max-height: 10%;
+   background-size: 100%;
+   z-index: 100%;
+}
+html{
+    font-size: 62.5%;
+}
+h2{
+    cursor: pointer;
+    color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0  20rem;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+}
+header a{
+    color: black;
+    transition: all  .4s ease;
+    color: rgba(255, 255, 255, 0.753);
+}
+header a:hover{
+    color: rgb(247, 145, 13);
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+li{
+    /* inset: 0 5rem; */
+    font-size: 1.3rem;
+    margin: 0 2rem;
+}
+
+.login-cont{
+    display: flex;
+    justify-content: center;
+    margin-top:10vh;
+    
+}
+.main-input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(82, 81, 81, 0.438);
+    height: 27rem;
+    width: 20rem;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    transition:all .3s  ease-in;
+    transform: translateY(10%);
+    backdrop-filter: blur(.3rem);
+    background-color: rgba(255, 255, 255, 0.048);
+}
+input{
+    color: rgba(233, 233, 233, 0.774) !important;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: .2rem .5rem;
+    border-radius: .5rem;
+    border: 1px solid rgba(82, 81, 81, 0.438);
+    outline: none;
+    background-color: transparent;
+}
+
+input:focus{
+    border:1px solid  goldenrod ;
+    color: rgba(0, 0, 0, 0.719);
+}
+input::placeholder{
+    color: rgba(247, 242, 242, 0.527);
+
+}
+button{
+    background-color: goldenrod;
+    border: none;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    margin-top: auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s  ease;
+    font-weight: 600;
+}
+.center-btn{
+    width: 100%;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    
+}
+button:hover{
+    background-color: rgb(245, 178, 8);
+}
+p a {
+    color: dodgerblue;
+}
+p a:hover{
+    text-decoration: underline;
+}
+label{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+.cross{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-circle-xmark{
+    font-size: 1.5rem;
+    padding: 0 .3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+}
+.main-input-active{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    transform: translateX(0);
+}
+.signIn-option{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+}
+.signIn-option h2{
+    font-weight: 400;
+    cursor: auto;
+    font-size: 1.1rem;
+}
+.social-icon{
+    display: flex;
+    width: 13rem;
+    justify-content: space-between;
+    margin: auto;   
+}
+.social-icon i {
+   display: flex;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+    transition: .3s;
+}
+.social-icon i:nth-child(1):hover{
+    color: red;
+    transform: rotate(360deg);
+}
+.social-icon i:nth-child(2):hover{
+    color: rgba(39, 92, 240, 0.842);
+    transform: rotate(360deg);
+}
+.social-icon i:nth-child(3):hover{
+    color: dodgerblue;
+    transform: rotate(360deg);
+}
+hr{
+    border:1px solid rgb(179, 179, 179);
+}
+
+
